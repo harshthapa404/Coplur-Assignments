@@ -1,4 +1,4 @@
-# All Assignments
+# All Assignments of Python
 <br>
 Name: Harsh Thapa
 <br>
