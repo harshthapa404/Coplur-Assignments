@@ -1,3 +1,5 @@
-# Assignment 1 Done
+# All Assignments
 <br>
 Name: Harsh Thapa
+<br>
+College - Poddar International College
