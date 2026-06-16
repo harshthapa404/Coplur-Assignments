@@ -1,0 +1,27 @@
+topic - 1 : Python File Input/Output.
+
+topic - 2 Modes in File Input/Output: "r","w","a","r+","w+","a+".
+
+topic - 3 topic -2 Python text file.
+
+topic - 4 Working in Write Mode.
+
+topic - 5 Working in Read Mode.
+
+topic - 6 Working in Append Mode.
+
+topic -7 Python CSV
+
+topic - 8 Writing Data in CSV file.
+
+topic - 9 Reading Data from a CSV file.
+
+topic - 10 Read file line by line using loop.
+
+topic -11 Check if file Exists
+
+topic - 12 Count total Lines in file
+
+topic - 13 Count total words in file
+
+topic - 14 Count total characters in file
