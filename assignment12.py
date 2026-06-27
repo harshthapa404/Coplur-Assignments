@@ -44,6 +44,3 @@ add.withdraw_amount(1000)    #This is the withdrawn amount that i want to withdr
 add.get_balance() 
 
 add.withdraw_amount(5500)   #This will show insufficient balance because withdrawn amount more than the balance amount.
-
-
-
