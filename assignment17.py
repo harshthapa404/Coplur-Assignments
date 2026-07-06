@@ -15,7 +15,7 @@ def get_weather():
         messagebox.showwarning("Input Error", "Please enter a city name.")
         return
 
-    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=14259e9a3f0284e4cabe36c40a061151&units=metric"
+    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={paste_your_api_key_here}&units=metric" #for my safety purpose i remove my api key.So use your api key.
 
     response = requests.get(url)
     data = response.json()
@@ -44,6 +44,7 @@ def get_weather():
 
 
 # GUI Window
+
 root = tk.Tk()
 root.title("Weather App")
 root.geometry("400x300")
@@ -52,9 +53,11 @@ root.geometry("400x300")
 title = tk.Label(root, text="Weather App", font=("Arial", 18, "bold"))
 title.pack(pady=10)
 
+
 city_entry = tk.Entry(root, font=("Arial", 14), width=25)
 city_entry.pack(pady=10)
 city_entry.focus()
+
 
 search_btn = tk.Button(root, text="Get Weather", font=("Arial", 12), command=get_weather)
 search_btn.pack(pady=5)
